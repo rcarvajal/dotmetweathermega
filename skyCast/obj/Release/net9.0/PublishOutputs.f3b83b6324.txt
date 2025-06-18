@@ -1,0 +1,1 @@
+C:\Megacable\GitHub\dotmetweathermega\skyCast\bin\Release\net9.0\publish\web.config

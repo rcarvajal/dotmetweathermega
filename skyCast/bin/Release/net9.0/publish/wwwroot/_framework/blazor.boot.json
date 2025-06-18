@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "skyCast",
   "resources": {
-    "hash": "sha256-vzdzj6A/aDSxGoKJD9iFwZxCcC7nWYKttnjmaGCeHo8=",
+    "hash": "sha256-i0SwpI+bKsTtwukjig0zQJlyIR8EcbO+4u6zhxm3L9I=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.2eo2727j5z.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.nl4zcw382h.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -43,7 +43,7 @@
       "System.Text.RegularExpressions.k0eu65ve7y.wasm": "System.Text.RegularExpressions.wasm",
       "netstandard.xu67rf9xch.wasm": "netstandard.wasm",
       "System.Private.CoreLib.h2ps612s3k.wasm": "System.Private.CoreLib.wasm",
-      "skyCast.wnl05dy3i0.wasm": "skyCast.wasm",
+      "skyCast.ey6q6jhws6.wasm": "skyCast.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.uhsveqo9bs.js": "dotnet.native.js",
       "dotnet.native.swgexbmoy7.wasm": "dotnet.native.wasm",
@@ -109,7 +109,7 @@
       "System.Text.Json.7fkjdw4gyb.wasm": "sha256-3SSiihlFIjmb5NLBRKIhTEyZRgVUyEC9+4uhy9iHmyc=",
       "System.Text.RegularExpressions.k0eu65ve7y.wasm": "sha256-dAw+dIKra7ljgRE+eVWL5wTVKKXPJi7x/AdHfLLcFDs=",
       "netstandard.xu67rf9xch.wasm": "sha256-h3op1Q5WGHqfA7IyBz8OSjeH4I/BSU2XSxx1eKLeVgU=",
-      "skyCast.wnl05dy3i0.wasm": "sha256-rMZX25NZqLwPZ1nd5FsQshjOxZio5MqkRFV3aC8onxU="
+      "skyCast.ey6q6jhws6.wasm": "sha256-SlhNVXfeHbGpe5q5cShYBPVfOztTQBlGMP22YAtuXAY="
     }
   },
   "cacheBootResources": true,

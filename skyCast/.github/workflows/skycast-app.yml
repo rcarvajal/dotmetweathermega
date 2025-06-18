@@ -9,17 +9,17 @@ env:
     NODE_VERSION: '22.x'
 
 permissions:
-    contents: write
-    id-token: write
-    pages: write
-    
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
     build:
         runs-on: ubuntu-latest
     
         steps:
             # 1. Descargar el código
-            - name: Descargar el código
+            - name: Descargar código
               uses: actions/checkout@v4
 
             # 2. Instalar .NET
@@ -28,11 +28,12 @@ jobs:
               with:
                 dotnet-version: ${{ env.DOTNET_VERSION }}
 
-            # 3. Pacquetes Nuget
+            # 3. Paquetes Nuget
             - uses: actions/cache@v3
               with:
                 path: ~/.nuget/packages
                 key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
+
             # Instalar Node
             - name: Setup Node
               uses: actions/setup-node@v4
@@ -42,22 +43,26 @@ jobs:
             # Restore an publish
             - name: Publicar APP Blazor
               run: |
-                    dotnet restore
-                    # Inyectar la API KEY
-                    echo "{\"OpenWeather\":{\"Key\":\"${{ secrets.OPENWEATHER_KEY }}\"}}" > skyCast/appsettings.Production.json
-                    dotnet publish skyCast/skyCast.csproj -c Release -o ./publish
+                dotnet restore
+                # Inyectar la API Key
+                echo "{\"OpenWeather\":{\"Key\":\"${{ secrets.OPENWEATHER_KEY }}\"}}" > skyCast/appsettings.Production.json
+                dotnet publish skyCast/skyCast.csproj -c Release -o publish
+
+            - name: Listar salida
+              run: |
+                echo "Contenido Generado"
+                ls -R publish | head -n 100
 
             # Artifact
-            - name: Guardar artefacto
-              uses: actions/upload-artifact@v4
+            - uses: actions/upload-artifact@v4
               with:
                 name: publish
                 path: publish
 
             # Despliegue
-            - name: Desplegar github pages
+            - name: Deploy to Pages
               uses: peaceiris/actions-gh-pages@v4
-              with: 
+              with:
                 github_token: ${{ secrets.GITHUB_TOKEN }}
-                publish_dir: ./publish/wwwroot
+                publish_dir: SkyCast/publish/wwwroot
                 force_orphan: true
