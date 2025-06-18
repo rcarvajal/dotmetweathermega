@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("skyCast")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b73c8b7b9b3b57133cf7b795d6b42cfe2c411604")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7c939fa737a6fccc90f77e189230d1fefd6c55c")]
 [assembly: System.Reflection.AssemblyProductAttribute("skyCast")]
 [assembly: System.Reflection.AssemblyTitleAttribute("skyCast")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
