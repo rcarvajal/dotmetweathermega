@@ -1105,10 +1105,10 @@ C:\Megacable\GitHub\dotmetweathermega\SkyCast\obj\Release\net9.0\SkyCast.dll
 C:\Megacable\GitHub\dotmetweathermega\SkyCast\obj\Release\net9.0\refint\SkyCast.dll
 C:\Megacable\GitHub\dotmetweathermega\SkyCast\obj\Release\net9.0\SkyCast.pdb
 C:\Megacable\GitHub\dotmetweathermega\SkyCast\obj\Release\net9.0\ref\SkyCast.dll
-C:\Megacable\GitHub\dotmetweathermega\SkyCast\bin\Release\net9.0\wwwroot\_framework\SkyCast.piokjb25fd.wasm
-C:\Megacable\GitHub\dotmetweathermega\SkyCast\bin\Release\net9.0\wwwroot\_framework\SkyCast.ehkxfmtnvy.pdb
-C:\Megacable\GitHub\dotmetweathermega\SkyCast\bin\Release\net9.0\wwwroot\_framework\SkyCast.piokjb25fd.wasm.gz
-C:\Megacable\GitHub\dotmetweathermega\SkyCast\bin\Release\net9.0\wwwroot\_framework\SkyCast.ehkxfmtnvy.pdb.gz
-C:\Megacable\GitHub\dotmetweathermega\SkyCast\obj\Release\net9.0\compressed\cg2j45xujg-piokjb25fd.gz
-C:\Megacable\GitHub\dotmetweathermega\SkyCast\obj\Release\net9.0\compressed\ttbssjkq45-ehkxfmtnvy.gz
-C:\Megacable\GitHub\dotmetweathermega\SkyCast\obj\Release\net9.0\compressed\exty8d13yd-znl4tdbufa.gz
+C:\Megacable\GitHub\dotmetweathermega\SkyCast\bin\Release\net9.0\wwwroot\_framework\SkyCast.l52pp1iuxg.wasm
+C:\Megacable\GitHub\dotmetweathermega\SkyCast\bin\Release\net9.0\wwwroot\_framework\SkyCast.ah1izdtjhn.pdb
+C:\Megacable\GitHub\dotmetweathermega\SkyCast\bin\Release\net9.0\wwwroot\_framework\SkyCast.l52pp1iuxg.wasm.gz
+C:\Megacable\GitHub\dotmetweathermega\SkyCast\bin\Release\net9.0\wwwroot\_framework\SkyCast.ah1izdtjhn.pdb.gz
+C:\Megacable\GitHub\dotmetweathermega\SkyCast\obj\Release\net9.0\compressed\cg2j45xujg-l52pp1iuxg.gz
+C:\Megacable\GitHub\dotmetweathermega\SkyCast\obj\Release\net9.0\compressed\ttbssjkq45-ah1izdtjhn.gz
+C:\Megacable\GitHub\dotmetweathermega\SkyCast\obj\Release\net9.0\compressed\exty8d13yd-uud5erk4pm.gz
