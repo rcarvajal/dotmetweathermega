@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KJrQIvB2fB0=",
+  "dgSpecHash": "6EvWG4TYL6U=",
   "success": true,
-  "projectFilePath": "C:\\Megacable\\GitHub\\dotmetweathermega\\skyCast\\skyCast.csproj",
+  "projectFilePath": "C:\\Megacable\\GitHub\\dotmetweathermega\\SkyCast\\SkyCast.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.5\\microsoft.aspnetcore.authorization.9.0.5.nupkg.sha512",
     "C:\\Users\\rcarvajal\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.5\\microsoft.aspnetcore.components.9.0.5.nupkg.sha512",

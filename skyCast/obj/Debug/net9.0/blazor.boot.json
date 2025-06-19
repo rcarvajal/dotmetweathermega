@@ -1,7 +1,7 @@
 {
-  "mainAssemblyName": "skyCast",
+  "mainAssemblyName": "SkyCast",
   "resources": {
-    "hash": "sha256-BBzXRP5JN6FqEiDcvtPS4YDyek1D1hRONB55bOwMFlQ=",
+    "hash": "sha256-SOyLYf/tUnoRdSEVFHoxu3CY7zTcfeS3rCnoICRchtc=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.n7we7nbch1.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.waskkzx0nn.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -208,8 +208,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "skyCast.mk9he7yqfo.wasm": "skyCast.wasm",
-      "skyCast.p9t7p4x3c7.pdb": "skyCast.pdb"
+      "SkyCast.s1zne7gkt7.wasm": "SkyCast.wasm",
+      "SkyCast.s53u0lb2bt.pdb": "SkyCast.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.uhsveqo9bs.js": "sha256-/ifJokfQvXKw1hEziCkYR9SOJIKSdGG/UKw5gbLWrj0="
@@ -426,10 +426,10 @@
       "WindowsBase.pe1q66fox7.wasm": "sha256-X+jubl681x6U1UjhhKVz+cjOvMv1wDBWIyyFenqJnPc=",
       "mscorlib.ypkr78tz1c.wasm": "sha256-Wkc7KpMw/bTWNoLCRv9T8olIOmCpEiJSeUZsUQEnwrA=",
       "netstandard.ifx8vojh9u.wasm": "sha256-PqpRCbO73PFsE8ik5zmAuG1kKax3c7bGhjOOeuiUcyY=",
-      "skyCast.mk9he7yqfo.wasm": "sha256-tjT/2cpba1kYNNn+7vISNXt5NrrvQm8KOezBinQkZLE="
+      "SkyCast.s1zne7gkt7.wasm": "sha256-MFtJi6t/0m0C7J1MFX/u+sYJ+hTYGKZtkIPxl7EQjlo="
     },
     "pdb": {
-      "skyCast.p9t7p4x3c7.pdb": "sha256-E1dbHJq5lkqjn05YH4XOwcNbHopzbJfZllUVRnW7ffY="
+      "SkyCast.s53u0lb2bt.pdb": "sha256-gPA5RVrf0C3+vBQ9yq5nYwTJIUjGPxnyhg9gf/cdfns="
     }
   },
   "cacheBootResources": true,

@@ -12,7 +12,7 @@ public class WeatherService
     public WeatherService(HttpClient http, IConfiguration config)
     {
         _http = http;
-        _key = config["OPENWEATHER_KEY"] ?? "046c9712c94851ac11db6b4139309181";
+        _key = config["OPENWEATHER_KEY"] ?? "";
     }
 
     public async Task<WeatherDto?> GetByCityAsync(string city)
@@ -22,23 +22,3 @@ public class WeatherService
     }
 
 }
-
-/*
-    https://openweathermap.org/api/hourly-forecast#name5
-No es brujería es tecnología
-9:32
-var url = $"{baseURL}/weather?q={Uri.EscapeDataString(city)}&units=metric&appid={_key}&lang=es";
-    No es brujería es tecnología
-9:35
-https://github.com/josejesusguzman/dotmetweathermega
-
-
-046c9712c94851ac11db6b4139309181
-SkyCast
-
-
-https://home.openweathermap.org/api_keys
-rcarvajal
-Abuelita99
-
-*/

@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("skyCast")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("SkyCast")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b70036ed839696b79fcfb2296e811851b38a04a0")]
-[assembly: System.Reflection.AssemblyProductAttribute("skyCast")]
-[assembly: System.Reflection.AssemblyTitleAttribute("skyCast")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+271f23e0d46e156637d913208692b400cbd4a103")]
+[assembly: System.Reflection.AssemblyProductAttribute("SkyCast")]
+[assembly: System.Reflection.AssemblyTitleAttribute("SkyCast")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

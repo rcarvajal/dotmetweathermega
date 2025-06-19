@@ -2,15 +2,14 @@
 @using SkyCast.Services
 @inject WeatherService Api
 
-<h1 class="text-3x1 font-bold mb-4">Pronóstico</h1>
+<h1 class="text-3xl font-bold mb-4">🌤️ Pronóstico</h1>
 
 <div class="mb-4 flex gap-2">
     <input @bind="city"
-            placeholder="Ciudad..."
-            class="border rounded px-2 py-1 flex-1" />
-    <button class="bg-blue-600 text-white px-4 rounded" @onclick="Search">
-        Buscar
-    </button>
+        placeholder="Ciudad..."
+        class="border rounded px-2 py-1 flex-1" />
+    <button class="bg-blue-600 text-white px-4 rounded"
+            @onclick="Search">Buscar</button>
 </div>
 
 @if (loading)
@@ -24,10 +23,10 @@ else if (error != null)
 else if (data != null)
 {
     <div class="p-6 rounded shadow bg-white max-w-sm">
-        <h2 class="text-x1 font-semibold">@data.Name</h2>
-        <p class="text 6x1">@data.Main.Temp.ToString("0") °C</p>
+        <h2 class="text-xl font-semibold">@data.Name</h2>
+        <p class="text-6xl">@data.Main.Temp.ToString("0")°C</p>
         <p class="capitalize">@data.Weather.First().Description</p>
-        <p class="text-sm text-gray-500">Humedad: @data.Main.Humidity %</p>
+        <p class="text-sm text-gray-500">Humedad: @data.Main.Humidity%</p>
     </div>
 }
 
@@ -37,20 +36,15 @@ else if (data != null)
     string? error;
     WeatherDto? data;
 
-
     async Task Search()
     {
-        loading = true;
-        error = null;
+        loading = true; error = null;
         try
         {
             data = await Api.GetByCityAsync(city);
             if (data == null) error = "Ciudad no encontrada";
-        } 
-        catch (Exception ex)
-        {
-            error = ex.Message;
         }
+        catch (Exception ex) { error = ex.Message; }
         loading = false;
     }
 
